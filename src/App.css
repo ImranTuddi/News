@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../public/bg.jpg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search_bar{
+  padding: 1rem;
+  border-radius: 6rem;
+  /* width: 23%; */
+  outline: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my-5 {
+  margin-top: 3rem!important;
+  margin-bottom: 3rem!important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 18rem ;
+  margin: 20px;
+}
+
+.image{
+  height: 160px;
+}
+.card-body{
+  height: 210px;
+}
+.font{
+  font-weight: bold;
+}
+.mb-3 {
+  width: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.search_bar {
+  padding: 1rem;
+  border-radius: 3rem;
+  outline: none;
+  width: 22rem;
 }
+.header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.btn{
+  border-radius: 1rem;
+  margin-left: 24px;
+  outline: none;
+  --bs-btn-padding-x: 1rem;
+  background-color: #ffffff;
+}
+.btn:hover{
+  background-color: black;
+  color: #ffffff;
+}
+.card:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.2); 
+  }
+h2{
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 65px;
+    color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
